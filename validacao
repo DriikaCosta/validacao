@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    alert('Bem Vindo ao nosso site!');
+      let nome = 'Lua';
+      let outroNome
+      
+      while (nome != outroNome){
+       outroNome = prompt('Digite o seu nome:');
+      if (nome != outroNome){
+      alert('Nome Inválido!');
+      }else{
+     if (outroNome == outroNome) {}
+      alert('Nome Válido! Bem Vindo ao Sistema');
+    }
+   }
+    
+      let idade = 25;
+      let outraIdade
+      
+      while (idade != outraIdade){
+       outraIdade = prompt('Digite sua Idade:');
+      if (idade != outraIdade){
+      alert('Idade Inválido!');
+      }else{
+     if (outraIdade == outraIdade) {}
+      alert('Idade Válida! Bem Vindo ao Sistema');
+    }
+   }
+   </script>
+
+</body>
+</html>
